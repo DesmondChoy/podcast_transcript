@@ -5,3 +5,9 @@
 
 # Ignore IDE-specific files
 .vscode/
+
+# Ignore .env
+.env
+
+# Ignore drafts folder
+drafts/

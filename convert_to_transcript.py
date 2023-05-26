@@ -14,7 +14,7 @@ result = model.transcribe("sol_rashidi_with_disclaimer.mp3", verbose=True)
 print(result["text"])
 # %%
 # Open a file in write mode ('w')
-file = open("transcript_base_timestamps.txt", "w")
+file = open("transcript_base.txt", "w")
 
 # Write the text to the file
 file.write(result["text"])
